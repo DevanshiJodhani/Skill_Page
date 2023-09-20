@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Belanosima&family=Josefin+Sans:wght@100&family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    background: #cac8c8;
+}
+html{
+    font-size: 65%;
+}
+
+.heading{
+    font-size: 4rem;
+    margin: 3rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+.heading {
+    color: #081b29;
+}
+
+.heading span{
+    color: #000484;
+}
+
+
+ .skill .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.row .column{
+    flex: 1 1 35rem;
+}
+
+.skill-tittle{
+    font-size: 2.2rem;
+    margin:  2rem;
+    text-align: center;
+    color: #000484;
+    letter-spacing: 0.2rem;
+}
+
+.box .content{
+    position: relative;
+    border: 0.2rem solid #000;
+    border-radius: 0.6rem;
+    padding: 1rem 1.5rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.progress{
+    padding: 1rem 0;
+
+}
+
+.content .progress h3{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar{
+    height: 3rem;    
+    border-radius: 0.6rem;
+    border: 0.2rem solid #081b29;
+    margin: 2rem 0;
+
+}
+
+.progress-bar span{
+    display: block;
+    height: 100%;
+    border-radius: 0.3rem;
+    background: #3b3ea7;
+}
+
+.progress:nth-child(1) .progress-bar span{
+    width: 90%;
+}
+
+.progress:nth-child(2) .progress-bar span{
+    width: 56%;
+}
+
+.progress:nth-child(3) .progress-bar span{
+    width: 82%;
+}
+
+.progress:nth-child(4) .progress-bar span{
+    width: 74%;
+}
+
+.progress:nth-child(5) .progress-bar span{
+    width: 68%;
+}
+
+@media (max-width: 1200px){
+    .skill-tittle{
+        font-size: 2rem;
+    }
+    .content{
+        margin: 20px;
+    }
+    html{
+        font-size: 58%;
+    }
+}
